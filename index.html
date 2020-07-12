@@ -1,0 +1,123 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.css" />
+		<link rel="stylesheet" href="./styles/index.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<title>seinlus/web Master</title>
+	</head>
+	<body>
+		<header>
+			<div class="toggle">
+				<button class="show-menu"><i class="fas fa-bars"></i></button>
+				<button class="hide-menu close-bar">
+					<i class="fas fa-times"></i>
+				</button>
+			</div>
+			<aside class="sidebar">
+				<p class="sein">Sein's portfolio</p>
+				<!-- links -->
+				<ul class="links">
+					<li>
+						<a href="#index" class="scroll">home</a>
+					</li>
+
+					<li>
+						<a href="#projects" class="scroll">projects</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/Sein044" class="scroll">contact</a>
+					</li>
+				</ul>
+				<!-- social media -->
+				<ul class="social-icons">
+					<li>
+						<a href="https://twitter.com/Sein044">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+				</ul>
+			</aside>
+
+			<!-- main sction -->
+			<main>
+				<div id="index" class="page">
+					<h1>
+						I am Seinlus
+					</h1>
+					<section class="hero-section">
+						<figure class="hero-img">
+							<img src="./images/sein.jpg" alt="seinlus portrait" />
+							<figcaption>i am sein</figcaption>
+						</figure>
+
+						<div class="intro-msg">
+							<p>a <strong>front-end developer / web designer</strong></p>
+							<p>
+								Bsc. computer science at maseno university. awesome website for
+								awesome people, feel free to contact .
+							</p>
+						</div>
+						<div class="intro-courosel">
+							<p>i love <span>builing staff</span></p>
+						</div>
+						<button class="btn">Contact me</button>
+					</section>
+					<hr />
+
+					<section class="technologies">
+						<h2>Skill set</h2>
+						<p>a list of technologies am comfortable working with</p>
+						<ul class="tools">
+							<li class="tool-item">
+								<i class="fab fa-html5"></i>
+								<strong>HTML5</strong>
+							</li>
+
+							<li class="tool-item">
+								<i class="fab fa-css3"></i>
+								<strong>CSS3</strong>
+							</li>
+
+							<li class="tool-item">
+								<i class="fab fa-js-square"></i>
+								<strong>javascript</strong>
+							</li>
+							<li class="tool-item">
+								<i class="fa fa-mobile"></i>
+								<strong>Responsive Design</strong>
+							</li>
+							<li class="tool-item">
+								<i class="fab fa-git"></i>
+								<strong>git</strong>
+							</li>
+							<li class="tool-item">
+								<i class="fas fa-database"></i>
+								<strong>SQL</strong>
+							</li>
+						</ul>
+						<p>currently learning React</p>
+					</section>
+					<hr />
+
+					<section id="projects" class="projects">
+						<h2>projects</h2>
+						<p>Cool design, cool website for cool people</p>
+						<div class="project-items"></div>
+					</section>
+					<hr />
+				</div>
+			</main>
+			<footer>
+				<p>Copyright &copy<span id="date"></span> All rights reserved</p>
+				<a href="http://www.freepik.com">Designed by Freepik</a>
+			</footer>
+		</header>
+		<!-- javascript -->
+		<script src="./scripts/app.js"></script>
+	</body>
+</html>
